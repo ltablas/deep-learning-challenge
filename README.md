@@ -54,8 +54,20 @@ Results were still not better than the original model, acheiving only 73% accura
 
 <img width="460" alt="image" src="https://github.com/ltablas/deep-learning-challenge/assets/116695697/80a65dce-04e6-45e0-9485-d349308e918d">
 
+Results of this test are in the folder called "Optimization Notebook and h5 Test1".
 
+For a last ditch effort at attaining 75% accuracy, I decided to try something different with the data set.
 
+On the final optimization test I decided to increase the cutoff value of the Application bins to 700 and decrease the cutoff value of the Classification bins to 1000 to see if changing the parameters might make a difference. I also switched up the layers, neurons and activation mode with 3 layers (21, 14, and 7 neurons), and back to ReLu activation mode. 
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+<img width="645" alt="image" src="https://github.com/ltablas/deep-learning-challenge/assets/116695697/a3585e90-163e-46ea-b5ff-458a22d242ef">
+
+All those changes still did nothing to improve accuracy compared to the original. This test model yielded 72.9% accuracy.
+
+<img width="464" alt="image" src="https://github.com/ltablas/deep-learning-challenge/assets/116695697/f53721cb-af7b-46be-a3bf-baf27dd7d1a0">
+
+Second test model is saved in folder "Optimization Notebook and h5 Test2".
+
+**Summary: **
+In summary, I was only able to achieve a 73% accuracy rating on average. Not sure what may help yield better results, but with more time, I would probably play around with decreasing number of input variables for higher efficiency, or potentially cleaning the data to scrub out any outliers.
 
